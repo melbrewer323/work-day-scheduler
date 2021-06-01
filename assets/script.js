@@ -22,5 +22,18 @@ $(document).ready(function () {
     $("#hour4 .description").val(localStorage.getItem("hour4"));
     $("#hour5 .description").val(localStorage.getItem("hour5"));
 
-    
-})
+
+  /* var currentHour = moment().format('H');
+
+   
+        if (currentHour < hour9) {
+            $(".description").addClass("future");
+        } else if (currentHour > hour9) {
+            $(".description").addClass("past");
+        } else if (currentHour = hour9) {
+            $(".description).addClass("present");
+        };
+        */
+
+       
+        })
